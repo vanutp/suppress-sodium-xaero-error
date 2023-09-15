@@ -1,7 +1,6 @@
-### Disclaimer: This mod does not actually fix any errors; it only prevents them from spamming the log.
+This mod prevents log spamming with OpenGL errors when Xaero World Map and Sodium are installed.
 
-This mod prevents the OpenGL `GL_INVALID_ENUM` error from being logged more than once. If you know what that is, this is probably for you. If not, don't worry about it. This is a tool for people who read the debug log (mainly developers).
+This is a temporary workaround until
+[the issue](https://legacy.curseforge.com/minecraft/mc-mods/xaeros-world-map/issues/717) is fixed.
 
-Since `v1.1.0`, it also suppresses `GL_INVALID_VALUE` and `GL_INVALID_OPERATION`. `v1.1.0` also adds a configuration screen, so be sure to download it if you still have `v1.0.0`.
-
-Click [here](https://github.com/AdamRaichu/suppress-OpenGL-1280/wiki) for more information on what that error is.
+This is a fork of https://github.com/AdamRaichu/suppress-OpenGL-1280 adapted for another issue.
