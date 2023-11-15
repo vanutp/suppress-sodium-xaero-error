@@ -24,7 +24,7 @@ public abstract class GlDebugMixin {
                                         CallbackInfo ci) {
         String messageText = GLDebugMessageCallback.getMessage(messageLength, message);
 
-        if (id == 1 && messageText.equals("GL_INVALID_ENUM in glGetIntegerv(pname=GL_TEXTURE_FREE_MEMORY_ATI)")) {
+        if (messageText.equals("GL_INVALID_ENUM in glGetIntegerv(pname=GL_TEXTURE_FREE_MEMORY_ATI)")) {
             if (hasPostedMessage) {
                 ci.cancel();
             } else {
